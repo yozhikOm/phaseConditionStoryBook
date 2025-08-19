@@ -1,0 +1,87 @@
+/* Dialog */
+.phase-modal__main {
+  min-width: 1080px;
+  min-height: 350px;
+}
+
+.phase-modal-dialog__container {
+  min-height: 300px;
+}
+
+.phase-modal-dialog__body {
+  /* padding-bottom: 70px;
+  Высота блока "footer" */
+
+  /* flex: 1 1 auto; */
+  /* background-color: #cfc; */
+}
+
+.phase-modal-dialog__body textarea {
+  margin-bottom: 10px;
+}
+
+.phase-modal-dialog__footer {
+  /* position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  background: #66ccff; */
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  /* flex: 0 1 auto; */
+  /* background-color: #fcc; */
+}
+
+
+/* conditions */
+
+.phase-condition-item__container {
+  display: flex;
+  align-items: center;
+  border: 1px dashed white;
+}
+
+.phase-condition-item__container.centered {
+  /* justify-content: center; */
+}
+
+.phase-condition-item__container.hovered {
+  border: 1px dashed green
+}
+
+.phase-condition__operator {
+  width: 70px;
+  margin: 0 5px 0 5px;
+  /* font-weight: bold; */
+}
+
+.phase-bool-condition__label {
+  /* float: right; */
+  /* padding-top: 7px; */
+}
+
+.phase-value-condition__field {
+  width: 150px;
+  margin: 0 5px 0 5px;
+  /* font-weight: bold */
+}
+
+.phase-value-condition__value {
+  width: 100px;
+  margin: 0 5px 0 5px;
+}
+
+.bool-condition-container {
+  display: block;
+}
+
+.phase-bool-condition__operand {
+  display: flex;
+  padding: 0 0 5px 30px;
+  align-items: center;
+}
+
+.phase-bool-condition__operand span {
+  /* padding-top: 7px; */
+}
